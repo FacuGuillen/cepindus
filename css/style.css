@@ -1,0 +1,221 @@
+/* ---------------     NAVBAR     --------------- */
+
+.navbar-brand {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.brand-name {
+    color: #EE2626;
+}
+
+.brand-suffix {
+    color: #EE2626;
+    font-size: 0.8rem;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.cta {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+.cta {
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 5px; 
+    text-transform: uppercase;
+    padding-right: 0; 
+    transition: color 0.3s ease; 
+}
+
+.hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #E33E26; 
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation {
+    color: #E33E26; 
+}
+
+.cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+/* ---------------     INDEX     --------------- */
+.hero {
+    /* 1. Ponemos la imagen de fondo */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../image/cepillo.jpg');
+    
+    /* 2. Controlamos el tamaño (lo que hablamos antes) */
+    width: 100%;
+    height: 60vh; /* 60% de la altura de la pantalla */
+    
+    /* 3. Centramos la imagen */
+    background-size: cover;
+    background-position: center;
+    
+    /* 4. Centramos el texto adentro */
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+    text-align: center;
+    color: white; /* Color del texto para que resalte */
+}
+
+.hero-content h1 {
+    font-family: 'PT Serif', serif; /* La que elegimos para el logo */
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p{
+    font-size: 17px;
+}
+
+.cta-button{
+    font-size: 20px;
+}
+
+/* From Uiverse.io by suda-code */ 
+.btn-hero {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #2ba8fb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.btn-hero:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+
+.btn-hero:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+
+
+@media (min-width: 768px) {
+    /* Forzamos a que el contenedor del carrusel sea un Flexbox */
+    #productCarousel .carousel-inner {
+        display: flex;
+    }
+    
+    /* Quitamos el margen derecho de Bootstrap que separa los items */
+    #productCarousel .carousel-item {
+        margin-right: 0;
+        flex: 0 0 33.333333%; /* 3 cards por slide */
+        display: block;
+    }
+}
+
+.productos-destacados h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+.productos-destacados h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+.card {
+    padding: 10px;
+    border: none; /* Proba quitando el borde gris para que se vea más moderno */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Un sombreado muy suave */
+}
+
+/* Todas las tarjetas por defecto */
+.center .card {
+    transform: scale(0.9); /* Un poco más chicas */
+    opacity: 0.5;          /* Un poco transparentes */
+    transition: all 0.3s ease; /* Para que el cambio sea suave */
+}
+
+/* La tarjeta que Slick detecta como central */
+.center .slick-center .card {
+    transform: scale(1.1); /* Se agranda un 10% */
+    opacity: 1;            /* Color pleno */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Sombra para dar profundidad */
+}
+
+/* Ajuste de imagen para que todas las cards midan lo mismo */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Estilo para las flechas (para que no se pierdan) */
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+    filter: invert(1); /* Si el fondo es blanco, esto las pone negras */
+}
+
+/* Cambia el color de las flechas */
+.slick-prev:before, .slick-next:before {
+    color: #E33E26 !important; /* Rojo industrial */
+    font-size: 30px; /* Un poco más grandes para que se vean bien */
+}
+
+/* Ajusta la posición para que no queden pegadas al borde */
+.slick-prev {
+    left: -35px;
+    z-index: 1;
+}
+.slick-next {
+    right: -35px;
+    z-index: 1;
+}
+
+
+.nosotros h2{
+    color: #E33E26; 
+}
+
+.asd{
+    font-size: 50px;
+}

@@ -1,0 +1,13 @@
+# Node modules (si usás npm o librerías)
+node_modules/
+
+# Archivos de configuración local o contraseñas
+.env
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Si usás herramientas de diseño como Figma (archivos locales pesados)
+*.fig
+*.tmp
