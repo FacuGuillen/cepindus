@@ -21,7 +21,7 @@ function renderizarProductos(listaProductos) {
                     <p class="card-text text-secondary small flex-grow-1">${producto.descripcion}</p>
                     
                     <div class="mt-3">
-                        <a href="#" class="btn btn-danger text-white px-4 rounded-pill" style=" font-weight: 500;">
+                        <a href="../pages/detalles-productos.html?id=${producto.id}" class="btn btn-danger text-white px-4 rounded-pill" style=" font-weight: 500;">
                             Ver más
                         </a>
                     </div>
