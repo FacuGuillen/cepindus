@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Node modules (si usás npm o librerías)
+=======
+
+>>>>>>> origin/detalles-productos-lautaro
 node_modules/
 
 # Archivos de configuración local o contraseñas
@@ -10,4 +14,8 @@ Thumbs.db
 
 # Si usás herramientas de diseño como Figma (archivos locales pesados)
 *.fig
+<<<<<<< HEAD
 *.tmp
+=======
+*.tmp
+>>>>>>> origin/detalles-productos-lautaro
