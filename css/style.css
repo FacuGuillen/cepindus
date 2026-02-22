@@ -101,7 +101,7 @@
     transform: translateX(-50%) translateY(0); /* Baja a su posición real */
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
     .mega-menu {
         width: 95vw; /* Usamos ancho de pantalla para que no desborde */
         left: 50%;
