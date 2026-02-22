@@ -115,96 +115,110 @@
 
 
 
-        <section id="contacto" class="py-5">
-            <div class="container">
-              <div class="row align-items-start">
-                
-                <div class="col-12 col-lg-6 mb-5 mb-lg-0">
-                  
-                  <h2 class="text-danger fw-bold mb-4">¿Necesitas asesoramiento personal?</h2>
-                  
-                  <p class="lead text-secondary mb-4">
-                    Cada industria es única. Si no encuentra el producto exacto en nuestro catálogo 
-                    o tiene dudas sobre qué material utilizar, estamos aquí para ayudarle.
-                  </p>
-                  
-                  <p class="text-secondary">
-                    Cuéntenos qué necesita resolver. Ya sea una adaptación de una pieza existente 
-                    o un diseño completamente nuevo desde cero, nuestros especialistas se pondrán 
-                    en contacto con usted brevemente para ofrecerle una propuesta concreta.
-                  </p>
-          
-                  <div class="mt-5">
-                    <h5 class="fw-bold text-dark">Email de contacto:</h5>
-                    <a href="mailto:tomas@cepindus.com.ar" class="text-danger text-decoration-none fs-5">
-                      tomas@cepindus.com.ar
-                    </a>
-                  </div>
-                </div>
-          
-          
-                <div class=" col-12 col-lg-6">
-                  
-                  <div class="bg-light p-4 p-md-5 rounded-3 shadow-sm">
-                    
-                    <h3 class="text-center fw-bold mb-4">Enviar consulta</h3>
-          
-                    <form>
-                      <h6 class="text-secondary text-decoration-underline mb-3">Datos Personales</h6>
-                      
-                      <div class="row mb-3">
-                        <div class="col-md-6 mb-3 mb-md-0">
-                          <input type="text" class="form-control" placeholder="Nombre">
-                        </div>
-                        <div class="col-md-6">
-                          <input type="text" class="form-control" placeholder="Apellido">
-                        </div>
-                      </div>
-                      
-                      <div class="mb-4">
-                        <input type="text" class="form-control" placeholder="Nombre Empresa">
-                      </div>
-          
-                      <h6 class="text-secondary text-decoration-underline mb-3">Datos de donde esta</h6>
-                      <div class="row mb-4">
-                        <div class="col-md-6 mb-3 mb-md-0">
-                          <input type="text" class="form-control" placeholder="Ciudad">
-                        </div>
-                        <div class="col-md-6">
-                          <input type="text" class="form-control" placeholder="Provincia">
-                        </div>
-                      </div>
-          
-                      <h6 class="text-secondary text-decoration-underline mb-3">Datos de contacto</h6>
-                      <div class="row mb-4">
-                        <div class="col-md-6 mb-3 mb-md-0">
-                          <input type="email" class="form-control" placeholder="Email">
-                        </div>
-                        <div class="col-md-6">
-                          <input type="tel" class="form-control" placeholder="Número de teléfono">
-                        </div>
-                      </div>
-          
-                      <div class="mb-4">
-                        <textarea class="form-control" rows="4" placeholder="Mensaje"></textarea>
-                      </div>
-          
-                      <button type="submit" class="btn btn-danger w-100 py-2 fw-bold">
-                        Enviar consulta
-                      </button>
-          
-                    </form>
-                  </div>
-          
-                </div>
-          
+        <section id="contacto" class="py-5 bg-white">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      
+      <div class="col-12 col-lg-5">
+        <h2 class="text-danger fw-bold mb-4 display-6">¿Necesitas asesoramiento personal?</h2>
+        
+        <p class="lead text-secondary mb-4">
+          Cada industria es única. Si no encuentra el producto exacto en nuestro catálogo 
+          o tiene dudas sobre qué material utilizar, estamos aquí para ayudarle.
+        </p>
+        
+        <p class="text-secondary mb-5">
+          Cuéntenos qué necesita resolver. Ya sea una adaptación de una pieza existente 
+          o un diseño completamente nuevo, nuestros especialistas se pondrán 
+          en contacto con usted a la brevedad.
+        </p>
+
+        <div class="p-4 border-start border-danger border-4 bg-light rounded-end">
+          <h5 class="fw-bold text-dark mb-2">Email de contacto:</h5>
+          <a href="mailto:tomas@cepindus.com.ar" class="text-danger text-decoration-none fs-5 fw-bold">
+            tomas@cepindus.com.ar
+          </a>
+          <p class="small text-muted mt-2 mb-0">Respondemos en menos de 24hs hábiles.</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-7">
+        <div class="bg-light p-4 p-md-5 rounded-4 shadow-sm border">
+          <h3 class="fw-bold mb-4 text-center">Enviar consulta</h3>
+
+          <form action="https://formspree.io/f/mojnnaoo" method="POST">
+            <input type="hidden" name="_next" value="https://www.cepindus.com.ar/gracias.html">
+            
+            <h6 class="fw-bold mb-3 small text-uppercase">Datos Personales</h6>
+            <div class="row g-3 mb-3">
+              <div class="col-md-6">
+                <input type="text" name="nombre" class="form-control form-control-lg fs-6" required placeholder="Nombre">
+              </div>
+              <div class="col-md-6">
+                <input type="text" name="apellido" class="form-control form-control-lg fs-6" required placeholder="Apellido">
+              </div>
+              <div class="col-md-12">
+                <input type="text" name="empresa" class="form-control form-control-lg fs-6" required placeholder="Nombre de la Empresa">
               </div>
             </div>
-          </section>
+
+            <h6 class="fw-bold mb-3 small text-uppercase">Ubicación y Contacto</h6>
+            <div class="row g-3 mb-3">
+              <div class="col-md-6">
+                <input type="text" name="ciudad" class="form-control form-control-lg fs-6" required placeholder="Ciudad">
+              </div>
+              <div class="col-md-6">
+                <input type="text" name="provincia" class="form-control form-control-lg fs-6" required placeholder="Provincia">
+              </div>
+              <div class="col-md-6">
+                <input type="email" name="email" class="form-control form-control-lg fs-6" required placeholder="Email">
+              </div>
+              <div class="col-md-6">
+                <input type="tel" name="telefono" class="form-control form-control-lg fs-6" required placeholder="Teléfono">
+              </div>
+            </div>
+
+            <h6 class="fw-bold mb-3 small text-uppercase">Mensaje</h6>
+            <div class="mb-4">
+              <textarea class="form-control form-control-lg fs-6" name="mensaje" rows="3" required placeholder="¿En qué podemos ayudarle?"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-danger w-100 py-3 fw-bold text-uppercase shadow">
+              Enviar consulta ahora
+            </button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
     </main>
 
-    <footer>
-
+    <footer class="bg-dark text-white pt-5 pb-3" style="border-top: 5px solid #E33E26;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 mb-4">
+                    <h3 class="fw-bold" style="color: #E33E26; font-family: 'PT Serif', serif;">CEPINDUS S.A.</h3>
+                    <p class="text-secondary small w-75">Diseño y fabricación de herramientas industriales con más de 30 años de experiencia técnica.</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-3">Navegación</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-secondary text-decoration-none">Productos</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">Nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-3">Contacto</h6>
+                    <p class="text-secondary small mb-1"><i class="bi bi-geo-alt text-danger me-2"></i> Villa Tesei, Buenos Aires</p>
+                    <p class="text-secondary small"><i class="bi bi-envelope text-danger me-2"></i> info@cepindus.com.ar</p>
+                </div>
+            </div>
+            <div class="text-center pt-4 border-top border-secondary mt-3">
+                <p class="small text-secondary">&copy; 2026 Cepindus S.A.</p>
+            </div>
+        </div>
     </footer>
     <script src="../js/navbar.js"></script>
     <script src="../js/productos.js"> </script>
