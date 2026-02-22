@@ -101,6 +101,28 @@
     transform: translateX(-50%) translateY(0); /* Baja a su posición real */
 }
 
+@media (max-width: 420px) {
+    .mega-menu {
+        width: 95vw; /* Usamos ancho de pantalla para que no desborde */
+        left: 50%;
+        flex-direction: column; /* Las columnas ahora van hacia abajo */
+        align-items: center;    /* Centra los grupos de links */
+        gap: 20px;             /* Espacio entre cada categoría */
+        padding: 15px;
+        text-align: center;    /* Centra los textos si preferís */
+    }
+
+    .columna-menu {
+        width: 100%;           /* Cada grupo ocupa todo el ancho */
+        align-items: center;    /* Centra el título y los links internamente */
+    }
+
+    .columna-menu a {
+        width: 100%;           /* Los links son más fáciles de tocar con el dedo */
+        justify-content: center;
+    }
+}
+
 #cepillos-nav::after {
     content: "";
     position: absolute;
