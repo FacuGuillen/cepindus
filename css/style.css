@@ -471,6 +471,4 @@ ul, ol {
 .slick-center .card {
     transform: scale(1.05); /* Agranda un poquito la card central */
     transition: all 0.3s ease;
-    border: 1px solid red;  /* Opcional: borde rojo al activo */
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
