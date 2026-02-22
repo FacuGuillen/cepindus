@@ -454,3 +454,23 @@ ul, ol {
     display: none;
 }
 
+/* 1. Separación entre cards */
+.slick-slide {
+    margin: 0 10px; /* Espacio horizontal entre tarjetas */
+}
+
+/* 2. Controlar las imágenes */
+.card-img-top {
+    width: 100%;
+    height: 200px;        /* Altura fija para que todas sean iguales */
+    object-fit: contain;  /* La imagen no se recorta, se ajusta */
+    padding: 10px;        /* Un aire para que no toque los bordes */
+}
+
+/* 3. (Opcional) Efecto "Pop" al del medio */
+.slick-center .card {
+    transform: scale(1.05); /* Agranda un poquito la card central */
+    transition: all 0.3s ease;
+    border: 1px solid red;  /* Opcional: borde rojo al activo */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
