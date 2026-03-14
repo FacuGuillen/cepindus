@@ -1,9 +1,9 @@
 const productos = [
     {
       id: 1,
-      categoria: "cilindrico",
-      titulo: "Cepillos cilíndricos modulares",
-      descripcion: "Se fabrican a partir de bases inyectadas con polipropileno espumado. El sistema modular dentado proporciona un...",
+      categoria: "modulares",
+      titulo: "Modulares",
+      descripcion: "blablabla",
       mostrarEnHome: true,
       imagen: "../images/Cepillos/Cilindricos/Cilindrico1.png",
       imagenes: [
