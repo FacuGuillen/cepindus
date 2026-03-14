@@ -23,12 +23,11 @@ if (producto) {
         }
     }
 
-    // --- C. CARRUSEL DE IMÁGENES ---
+    // --- C. CARRUSEL DE IMÁGENES PRINCIPAL ---
     const contenedorCarrusel = document.getElementById('contenedor-carrusel');
     
     if (contenedorCarrusel) {
         if (producto.imagenes && producto.imagenes.length > 0) {
-            // TIENE VARIAS FOTOS -> ARMAMOS CARRUSEL
             let indicadoresHTML = "";
             let slidesHTML = "";
             
@@ -54,12 +53,11 @@ if (producto) {
                     ` : ''}
                 </div>`;
         } else {
-            // SOLO UNA FOTO
             contenedorCarrusel.innerHTML = `<img src="${producto.imagen}" class="img-fluid w-100" style="height: 450px; object-fit: contain;" alt="${producto.titulo}">`;
         }
     }
 
-    // --- D. PRODUCTOS RELACIONADOS ---
+    // --- D. PRODUCTOS RELACIONADOS CON MINI-CARRUSELES ---
     const relacionados = productos.filter(p => p.categoria === producto.categoria && p.id !== producto.id);
 
     if (relacionados.length > 0) {
@@ -71,11 +69,54 @@ if (producto) {
             contenedorRelacionados.innerHTML = "";
 
             relacionados.forEach(rel => {
+                
+                // 1. Preparamos el HTML que irá en la zona de la foto
+                let areaImagenHTML = "";
+
+                // Si tiene el array 'imagenes' y tiene más de 1, armamos el mini-carrusel
+                if (rel.imagenes && rel.imagenes.length > 1) {
+                    
+                    const idCarrusel = `carrusel-rel-${rel.id}`; // ID Único importantísimo
+                    let fotosHTML = "";
+
+                    rel.imagenes.forEach((img, index) => {
+                        const active = index === 0 ? "active" : "";
+                        fotosHTML += `
+                            <div class="carousel-item ${active}">
+                                <img src="${img}" class="card-img-top img-fluid" alt="${rel.titulo}" style="max-height: 150px; object-fit: contain;">
+                            </div>
+                        `;
+                    });
+
+                    areaImagenHTML = `
+                        <div id="${idCarrusel}" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                ${fotosHTML}
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#${idCarrusel}" data-bs-slide="prev" style="width: 10%;">
+                                <span class="carousel-control-prev-icon" aria-hidden="true" style="transform: scale(0.7);"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#${idCarrusel}" data-bs-slide="next" style="width: 10%;">
+                                <span class="carousel-control-next-icon" aria-hidden="true" style="transform: scale(0.7);"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    `;
+                } else {
+                    // Si solo tiene 1 foto normal (o pusiste mal el array)
+                    // Hacemos que si falla 'rel.imagen' intente agarrar la primera de 'rel.imagenes'
+                    let srcImagen = rel.imagenes ? rel.imagenes[0] : rel.imagen;
+                    
+                    areaImagenHTML = `<img src="${srcImagen}" class="card-img-top img-fluid" alt="${rel.titulo}" style="max-height: 150px; object-fit: contain;">`;
+                }
+
+                // 2. Dibujamos la card completa inyectando el área de la imagen
                 contenedorRelacionados.innerHTML += `
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
                             <div class="bg-white p-3 text-center">
-                                <img src="${rel.imagen}" class="card-img-top img-fluid" alt="${rel.titulo}" style="max-height: 150px; object-fit: contain;">
+                                ${areaImagenHTML}
                             </div>
                             <div class="card-body d-flex flex-column p-3">
                                 <h6 class="card-title fw-bold text-dark" style="font-size: 1rem;">${rel.titulo}</h6>
