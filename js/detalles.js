@@ -12,7 +12,7 @@ if (producto) {
     if(titulo) titulo.innerText = producto.titulo;
     if(descripcion) descripcion.innerText = producto.detalle || producto.descripcion;
 
-    // --- B. LLENAR CARACTERÍSTICAS ---
+    // --- B. LLENAR CARACTERÍSTICAS (LISTA) ---
     const lista = document.getElementById('detalle-caracteristicas');
     if (lista) {
         lista.innerHTML = "";
@@ -20,6 +20,47 @@ if (producto) {
             producto.caracteristicas.forEach(item => {
                 lista.innerHTML += `<li class="mb-2">✔ ${item}</li>`;
             });
+        }
+    }
+
+    // --- NUEVO: TABLA DE ESPECIFICACIONES ---
+    const contenedorTabla = document.getElementById('contenedor-tabla');
+    
+    if (contenedorTabla) {
+        contenedorTabla.innerHTML = ""; // Limpiamos por las dudas
+        
+        // Verificamos si este producto tiene la propiedad tablaDatos en el array de productos.js
+        if (producto.tablaDatos) {
+            
+            // 1. Armamos los encabezados (Th)
+            let headersHTML = "";
+            producto.tablaDatos.encabezados.forEach(titulo => {
+                headersHTML += `<th class="bg-danger text-white text-center align-middle py-3 border-0">${titulo}</th>`;
+            });
+
+            // 2. Armamos las filas (Tr y Td)
+            let filasHTML = "";
+            producto.tablaDatos.filas.forEach(fila => {
+                filasHTML += "<tr>";
+                fila.forEach(celda => {
+                    filasHTML += `<td class="text-center align-middle fw-semibold text-secondary py-2 border-bottom">${celda}</td>`;
+                });
+                filasHTML += "</tr>";
+            });
+
+            // 3. Juntamos todo con el diseño de Bootstrap
+            contenedorTabla.innerHTML = `
+                <div class="table-responsive shadow-sm rounded-3 overflow-hidden border border-danger mt-4">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-danger">
+                            <tr>${headersHTML}</tr>
+                        </thead>
+                        <tbody>
+                            ${filasHTML}
+                        </tbody>
+                    </table>
+                </div>
+            `;
         }
     }
 
@@ -69,14 +110,10 @@ if (producto) {
             contenedorRelacionados.innerHTML = "";
 
             relacionados.forEach(rel => {
-                
-                // 1. Preparamos el HTML que irá en la zona de la foto
                 let areaImagenHTML = "";
 
-                // Si tiene el array 'imagenes' y tiene más de 1, armamos el mini-carrusel
                 if (rel.imagenes && rel.imagenes.length > 1) {
-                    
-                    const idCarrusel = `carrusel-rel-${rel.id}`; // ID Único importantísimo
+                    const idCarrusel = `carrusel-rel-${rel.id}`; 
                     let fotosHTML = "";
 
                     rel.imagenes.forEach((img, index) => {
@@ -104,14 +141,10 @@ if (producto) {
                         </div>
                     `;
                 } else {
-                    // Si solo tiene 1 foto normal (o pusiste mal el array)
-                    // Hacemos que si falla 'rel.imagen' intente agarrar la primera de 'rel.imagenes'
                     let srcImagen = rel.imagenes ? rel.imagenes[0] : rel.imagen;
-                    
                     areaImagenHTML = `<img src="${srcImagen}" class="card-img-top img-fluid" alt="${rel.titulo}" style="max-height: 150px; object-fit: contain;">`;
                 }
 
-                // 2. Dibujamos la card completa inyectando el área de la imagen
                 contenedorRelacionados.innerHTML += `
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
