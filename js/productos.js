@@ -108,9 +108,11 @@ const productos = [
         descripcion: "Esta solución es clave en procesos donde se requiere fricción controlada o soporte estructural sin dañar el material.",
         mostrarEnHome: true,
         imagen: "../image/categoria/cepillos/tipo-placa/Cepillo16a.png",
-        detalle: "Nuestros cepillos tipo placa están diseñados para integrarse de forma modular, creando una cama de cepillado de alta densidad que garantiza una superficie de contacto uniforme y eficiente. Esta solución es clave en procesos donde se requiere fricción controlada o soporte estructural sin dañar el material. Aplicaciones Industriales: Tratamiento de Fotopolímeros: Ideales para procesos de lavado y revelado de placas flexográficas, donde la uniformidad de las cerdas asegura una limpieza profunda sin abrasión excesiva. Procesamiento Alimentario: Utilizados en el cepillado, lavado y transporte de hortalizas y frutas, manteniendo la integridad del producto. Soporte de Punzonado y Perforado: Funcionan como una base de apoyo flexible para el troquelado o perforación de materiales delgados (chapas, plásticos o textiles), evitando deformaciones, rayaduras o marcas en el sustrato. Transporte y Desplazamiento: Actúan como camas de transferencia para materiales delicados, reduciendo el coeficiente de fricción y el ruido en la línea de producción. Ingeniería a medida: Fabricamos estas placas con densidades de fibra y materiales de base específicos según la resistencia química o mecánica que exija su operación.",
+        detalle: "Diseñados para integrarse de forma modular, creando una cama de cepillado de alta densidad que garantiza una superficie de contacto uniforme y eficiente. Solución clave para procesos de fricción controlada o soporte estructural sin dañar el material.",
         caracteristicas: [ 
-          
+          "•	Tratamiento de Fotopolímeros: Ideales para procesos de lavado y revelado de placas flexográficas",
+          "•	Procesamiento Alimentario: Utilizados en el cepillado, lavado y transporte de hortalizas y frutas, manteniendo la integridad del producto",
+          "•	Soporte de Punzonado y Perforado: Funcionan como una base de apoyo flexible para el troquelado o perforación de materiales delgados (chapas, plásticos o textiles) ",
           ],
         imagenes: [
           "../image/categoria/cepillos/tipo-placa/Cepillo16a.png", // Foto 1
@@ -131,8 +133,8 @@ const productos = [
           ],
         imagenes: [
           "../image/categoria/cepillos/circulares/Cepillo 7a.png", // Foto 1
-          "../image/categoria/cepillos/circulares/Cepillo 9c.png", // Foto 2
-          "../image/categoria/cepillos/circulares/Cepillo 19b.png",
+          "../image/categoria/cepillos/circulares/cepillo9c.png", // Foto 2
+          "../image/categoria/cepillos/circulares/cepillo19b.png",
       ], 
       },
       {
@@ -437,8 +439,7 @@ const productos = [
           ],
         imagenes: [
           "../image/categoria/cepillos/lineales/Cepillo 6a.png",
-          "../image/categoria/cepillos/lineales/Cepillo 6b.png",
-          "../image/categoria/cepillos/lineales",  
+          "../image/categoria/cepillos/lineales/Cepillo 6b.png",  
       ],
       },
 
@@ -654,7 +655,7 @@ const productos = [
         imagenes: [
           "../image/categoria/cepillos/circulares/Cepillo 9a.png",
           "../image/categoria/cepillos/circulares/Cepillo 9b.png",
-          "../image/categoria/cepillos/circulares/Cepillo 9c.png",
+          "../image/categoria/cepillos/circulares/Cepillo9c.png",
       ],
       },
 
@@ -675,7 +676,7 @@ const productos = [
         imagenes: [
           "../image/categoria/cepillos/circulares/Cepillo 7a.png",
           "../image/categoria/cepillos/circulares/Cepillo 7b.png",
-          "../image/categoria/cepillos/circulares/Cepillo 7c.png",
+          "../image/categoria/cepillos/circulares/cepillo7c.png",
       ],
       },
 
@@ -695,7 +696,7 @@ const productos = [
           ],
         imagenes: [
           "../image/categoria/cepillos/circulares/Cepillo 19a.png",
-          "../image/categoria/cepillos/circulares/Cepillo 19b.png",
+          "../image/categoria/cepillos/circulares/Cepillo19b.png",
           "../image/categoria/cepillos/circulares/Cepillo 19c.png",
       ],
       },
@@ -846,9 +847,6 @@ const productos = [
           "Ángulos disponibles: 90° o 180°."
           ],
         imagenes: [
-          "../image/categoria/cepillos/hogar/personal1.png",
-          "../image/categoria/cepillos/hogar/personal2.png",
-          "../image/categoria/cepillos/hogar/personal3.png",
           "../image/categoria/cepillos/hogar/personal4.png",
           "../image/categoria/cepillos/hogar/personal5.png",
           "../image/categoria/cepillos/hogar/personal6.png",
@@ -872,7 +870,7 @@ const productos = [
         imagenes: [
           "../image/categoria/cepillos/hogar/hogar.png",
           "../image/categoria/cepillos/hogar/s.png",
-          "../image/categoria/cepillos/hogar/WhatsApp Image 2026-03-10 at 9.19.40 PM.jpeg",
+          "../image/categoria/cepillos/hogar/WhatsApp-Image-2026-03-10-at-9.19.40-PM.jpeg",
       ],
       },
 
@@ -961,4 +959,43 @@ const productos = [
           "../image/categoria/cepillos/con-mango/Gemini_Generated_Image_plhjfyplhjfyplhj (1).png",
       ],
       },
+            {
+        id: 47,
+        categoria: "modulares",
+        titulo: "Cepillos Modular DDD",
+        descripcion: "Los cepillos de banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
+        mostrarEnHome: false,
+        imagen: "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-31 at 11.32.30 PM.jpeg" ,
+        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        caracteristicas: [ 
+          "Cuerpo de aluminio extruido.",
+          "Filamentos de alta densidad.",
+          "Montaje en caras de 8mm o 10mm.",
+          "Ángulos disponibles: 90° o 180°."
+          ],
+        imagenes: [
+          "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-31 at 11.32.30 PM.jpeg",
+          "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-31 at 11.31.29 PM.jpeg",
+          "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-31 at 11.32.07 PM.jpeg",
+      ],
+      },
+      {id: 48,
+        categoria: "hogar",
+        titulo: "Cepillos de Hogar DDD",
+        descripcion: "Hogar",
+        mostrarEnHome: false,
+        imagen: "../image/categoria/cepillos/hogar/asd.jpeg" ,
+        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        caracteristicas: [ 
+          "Cuerpo de aluminio extruido.",
+          "Filamentos de alta densidad.",
+          "Montaje en caras de 8mm o 10mm.",
+          "Ángulos disponibles: 90° o 180°."
+          ],
+        imagenes: [
+          "../image/categoria/cepillos/hogar/personal1.png",
+          "../image/categoria/cepillos/hogar/personal2.png",
+          "../image/categoria/cepillos/hogar/personal3.png",
+      ],
+      }
   ];

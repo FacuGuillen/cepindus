@@ -166,22 +166,22 @@
 
 @media (max-width: 650px) {
     .mega-menu {
-        width: 95vw; /* Usamos ancho de pantalla para que no desborde */
+        width: 95vw; 
         left: 50%;
-        flex-direction: column; /* Las columnas ahora van hacia abajo */
-        align-items: center;    /* Centra los grupos de links */
-        gap: 20px;             /* Espacio entre cada categoría */
+        flex-direction: column; 
+        align-items: center;   
+        gap: 20px;         
         padding: 15px;
-        text-align: center;    /* Centra los textos si preferís */
+        text-align: center;    
     }
 
     .columna-menu {
-        width: 100%;           /* Cada grupo ocupa todo el ancho */
-        align-items: center;    /* Centra el título y los links internamente */
+        width: 100%;          
+        align-items: center;   
     }
 
     .columna-menu a {
-        width: 100%;           /* Los links son más fáciles de tocar con el dedo */
+        width: 100%;          
         justify-content: center;
     }
 }
@@ -189,22 +189,22 @@
 @media (max-width: 550px) {
     .contenedor-enlace {
         display: grid; 
-        grid-template-columns: 1fr; /* Una sola columna vertical */
-        gap: 20px;                 /* Espacio entre los dos grupos de enlaces */
+        grid-template-columns: 1fr; 
+        gap: 20px;    
         width: 100%;
-        text-align: left;          /* Alineación de texto a la izquierda */
+        text-align: left;          
     }
 
     .contenedor-enlace div {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;   /* Empuja los enlaces al inicio (izquierda) */
-        gap: 12px;                 /* Espacio cómodo para clics táctiles */
+        align-items: flex-start; 
+        gap: 12px;             
     }
 
     .a-mega-menu {
         text-align: left;
-        width: 100%;               /* El área de clic ocupa todo el ancho */
+        width: 100%;              
         display: block;
     }
     
