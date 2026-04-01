@@ -542,3 +542,37 @@ ul, ol {
     transform: scale(1.05); /* Agranda un poquito la card central */
     transition: all 0.3s ease;
 }
+
+/* --- FLECHAS ESTILO SLICK PARA BOOTSTRAP --- */
+
+/* 1. Hacemos desaparecer el ícono celeste de la plantilla por completo */
+span.carousel-control-prev-icon,
+span.carousel-control-next-icon {
+    display: none !important;
+    background-image: none !important;
+}
+
+/* 2. Dibujamos la flecha izquierda directamente en el botón (Igual que Slick) */
+button.carousel-control-prev::before {
+    content: '❮' !important; 
+    color: #1CC1D9 !important; 
+    font-size: 40px !important; 
+    font-weight: 900 !important;
+    opacity: 1 !important;
+}
+
+/* 3. Dibujamos la flecha derecha directamente en el botón (Igual que Slick) */
+button.carousel-control-next::before {
+    content: '❯' !important; 
+    color: #1CC1D9 !important; 
+    font-size: 40px !important; 
+    font-weight: 900 !important;
+    opacity: 1 !important;
+}
+/* Si la pantalla mide 768px o menos (Celulares y Tablets chicas) */
+@media (max-width: 768px) {
+    button.carousel-control-prev::before,
+    button.carousel-control-next::before {
+        font-size: 25px !important; /* Achicamos las flechas para que no estorben */
+    }
+}

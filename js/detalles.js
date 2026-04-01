@@ -85,7 +85,7 @@ if (producto) {
             });
 
             contenedorCarrusel.innerHTML = `
-                <div id="carruselEstetico" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div id="carruselEstetico" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">${indicadoresHTML}</div>
                     <div class="carousel-inner">${slidesHTML}</div>
                     ${producto.imagenes.length > 1 ? `
