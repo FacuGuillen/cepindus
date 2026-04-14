@@ -24,7 +24,7 @@ const productos = [
         "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-12 at 11.02.23 AM.jpeg",
         "../image/categoria/cepillos/modulares/Cepillo 10a.png",
         "../image/categoria/cepillos/modulares/Gemini_Generated_Image_71lncr71lncr71ln (1).png", 
-        
+        "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-31 at 11.32.30 PM.jpeg", 
     ],
       
     },
@@ -116,7 +116,7 @@ const productos = [
           ],
         imagenes: [
           "../image/categoria/cepillos/tipo-placa/Cepillo16a.png", // Foto 1
-          "../image/categoria/cepillos/tipo-placa/Cepillo17a.png", // Foto 2
+          "../image/categoria/cepillos/tipo-placa/cepillo 25b.png", // Foto 2
           "../image/categoria/cepillos/tipo-placa/Cepillo15a.png",
       ], 
       },
@@ -126,15 +126,14 @@ const productos = [
         titulo: "Cepillos Circulares",
         descripcion: "Nuestros cepillos circulares están diseñados para integrarse en procesos críticos que exigen una acción rotativa precisa. ",
         mostrarEnHome: true,
-        imagen: "../image/categoria/cepillos/circulares/Cepillo 7a.png" ,
+        imagen: "../image/categoria/cepillos/circulares/Cepillo 9a.png" ,
         detalle: "Nuestros cepillos circulares están diseñados para integrarse en procesos críticos que exigen una acción rotativa precisa. En Cepindus S.A., entendemos que cada aplicación requiere una configuración única para garantizar la eficiencia del sistema. Nuestro valor diferencial es el acompañamiento técnico integral. Asesoramos a nuestros clientes desde la etapa de desarrollo inicial para definir la densidad, material y geometría ideal, asegurando el máximo rendimiento operativo de su maquinaria. Contamos con una infraestructura capaz de satisfacer todo tipo de demandas industriales, desde unidades individuales o lotes pequeños hasta grandes series de reposición, adaptándonos a los tiempos de su cadena de suministro.",
         caracteristicas: [ 
          
           ],
         imagenes: [
-          "../image/categoria/cepillos/circulares/Cepillo 7a.png", // Foto 1
-          "../image/categoria/cepillos/circulares/cepillo9c.png", // Foto 2
-          "../image/categoria/cepillos/circulares/cepillo19b.png",
+          "../image/categoria/cepillos/circulares/Cepillo 9a.png", // Foto 2
+          "../image/categoria/cepillos/circulares/Cepillo17c.png",
       ], 
       },
       {
@@ -152,6 +151,7 @@ const productos = [
           "../image/categoria/cepillos/banda-lineal/Cepillo1a.png", // Foto 1
           "../image/categoria/cepillos/banda-lineal/Cepillo2a.png", // Foto 2
           "../image/categoria/cepillos/banda-lineal/cepillo3a.png",
+          "../image/categoria/cepillos/banda-lineal/cepillo20b.jpeg",
       ], 
       },
 
@@ -208,8 +208,98 @@ const productos = [
           "../image/categoria/cepillos/con-mango/Gemini_Generated_Image_kd0vu2kd0vu2kd0v.png",
       ], 
       },
+      {
+        id: 49,
+        categoria: "cilindricos",
+        titulo: "Cepillos Cilíndricos",
+        descripcion: "sarasa ",
+        mostrarEnHome: true,
+        imagen: "../image/categoria/cepillos/cilindricos/Cepillo 7a.png" ,
+        detalle: "En Cepindus S.A., fabricamos cepillos manuales diseñados para una operación intensiva en entornos productivos exigentes. A diferencia de las opciones comerciales genéricas, nuestras herramientas están proyectadas para ofrecer un alto rendimiento ergonómico y una vida útil prolongada bajo condiciones de uso severo. Entendemos la dinámica de la industria moderna. Por ello, contamos con la flexibilidad operativa para fabricar lotes pequeños y piezas únicas sobre pedido. Los materiales de construcción varían según su aplicación y necesidad especifica, pudiendo utilizarse madera, plástico, aluminio o acero para la base y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",
+        caracteristicas: [ 
+          
+          ],
+        imagenes: [
+          "../image/categoria/cepillos/cilindricos/Cepillo 7a.png", // Foto 1
+          "../image/categoria/cepillos/cilindricos/Cepillo 19a.png", // Foto 2
+          "../image/categoria/cepillos/cilindricos/Gemini_Generated_Image_7j15qa7j15qa7j15.png",
+          "../image/categoria/cepillos/cilindricos/Cepillo 17a.png"
+      ], 
+      },
 
 
+// CEPILLOS MODULARES MINI CARDS
+      {
+        id: 50,
+        categoria: "cilindricos",
+        titulo: "Cepillos Cilíndricos",
+        descripcion: "sarasa ",
+        mostrarEnHome: false,
+        imagen: "../image/categoria/cepillos/cilindricos/Cepillo 7a.png" ,
+        detalle: "En Cepindus S.A., fabricamos cepillos manuales diseñados para una operación intensiva en entornos productivos exigentes. A diferencia de las opciones comerciales genéricas, nuestras herramientas están proyectadas para ofrecer un alto rendimiento ergonómico y una vida útil prolongada bajo condiciones de uso severo. Entendemos la dinámica de la industria moderna. Por ello, contamos con la flexibilidad operativa para fabricar lotes pequeños y piezas únicas sobre pedido. Los materiales de construcción varían según su aplicación y necesidad especifica, pudiendo utilizarse madera, plástico, aluminio o acero para la base y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",
+        caracteristicas: [ 
+          
+          ],
+        imagenes: [
+          "../image/categoria/cepillos/cilindricos/Cepillo 7a.png", // Foto 1
+          "../image/categoria/cepillos/cilindricos/Cepillo 7b.png",
+          "../image/categoria/cepillos/cilindricos/cepillo7c.png",
+      ], 
+      },
+
+      {
+        id: 51,
+        categoria: "cilindricos",
+        titulo: "Cepillos Cilíndricos",
+        descripcion: "sarasa ",
+        mostrarEnHome: false,
+        imagen: "../image/categoria/cepillos/cilindricos/Cepillo 7a.png" ,
+        detalle: "En Cepindus S.A., fabricamos cepillos manuales diseñados para una operación intensiva en entornos productivos exigentes. A diferencia de las opciones comerciales genéricas, nuestras herramientas están proyectadas para ofrecer un alto rendimiento ergonómico y una vida útil prolongada bajo condiciones de uso severo. Entendemos la dinámica de la industria moderna. Por ello, contamos con la flexibilidad operativa para fabricar lotes pequeños y piezas únicas sobre pedido. Los materiales de construcción varían según su aplicación y necesidad especifica, pudiendo utilizarse madera, plástico, aluminio o acero para la base y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",
+        caracteristicas: [ 
+          
+          ],
+        imagenes: [
+          "../image/categoria/cepillos/cilindricos/Cepillo 19a.png", // Foto 1
+          "../image/categoria/cepillos/cilindricos/cepillo19b.png",
+          "../image/categoria/cepillos/cilindricos/Cepillo 19c.png",
+      ], 
+      },
+
+      {
+        id: 52,
+        categoria: "cilindricos",
+        titulo: "Cepillos Cilíndricos",
+        descripcion: "sarasa ",
+        mostrarEnHome: false,
+        imagen: "../image/categoria/cepillos/cilindricos/Cepillo 7a.png" ,
+        detalle: "En Cepindus S.A., fabricamos cepillos manuales diseñados para una operación intensiva en entornos productivos exigentes. A diferencia de las opciones comerciales genéricas, nuestras herramientas están proyectadas para ofrecer un alto rendimiento ergonómico y una vida útil prolongada bajo condiciones de uso severo. Entendemos la dinámica de la industria moderna. Por ello, contamos con la flexibilidad operativa para fabricar lotes pequeños y piezas únicas sobre pedido. Los materiales de construcción varían según su aplicación y necesidad especifica, pudiendo utilizarse madera, plástico, aluminio o acero para la base y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",
+        caracteristicas: [ 
+          
+          ],
+        imagenes: [
+          "../image/categoria/cepillos/cilindricos/Gemini_Generated_Image_5rpm7k5rpm7k5rpm.png", // Foto 1
+          "../image/categoria/cepillos/cilindricos/Gemini_Generated_Image_7j15qa7j15qa7j15.png",
+          "../image/categoria/cepillos/cilindricos/Gemini_Generated_Image_suvjhisuvjhisuvj.png"
+      ], 
+      },
+
+            {
+        id: 53,
+        categoria: "cilindricos",
+        titulo: "Cepillos Cilíndricos",
+        descripcion: "sarasa ",
+        mostrarEnHome: false,
+        imagen: "../image/categoria/cepillos/cilindricos/Cepillo 7a.png" ,
+        detalle: "En Cepindus S.A., fabricamos cepillos manuales diseñados para una operación intensiva en entornos productivos exigentes. A diferencia de las opciones comerciales genéricas, nuestras herramientas están proyectadas para ofrecer un alto rendimiento ergonómico y una vida útil prolongada bajo condiciones de uso severo. Entendemos la dinámica de la industria moderna. Por ello, contamos con la flexibilidad operativa para fabricar lotes pequeños y piezas únicas sobre pedido. Los materiales de construcción varían según su aplicación y necesidad especifica, pudiendo utilizarse madera, plástico, aluminio o acero para la base y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",
+        caracteristicas: [ 
+          
+          ],
+        imagenes: [
+          "../image/categoria/cepillos/cilindricos/Cepillo 17a.png", // Foto 1
+          "../image/categoria/cepillos/cilindricos/Cepillo 17b.png",
+          "../image/categoria/cepillos/cilindricos/Cepillo 17c.png"
+      ], 
+      },
 
 // CEPILLOS MODULARES MINI CARDS
       {
@@ -502,7 +592,7 @@ const productos = [
           ],
         imagenes: [
           "../image/categoria/cepillos/lineales/Cepillo 20a.png",
-          "../image/categoria/cepillos/lineales/Cepillo 20b.png",
+          "../image/categoria/cepillos/lineales/Cepillo 20b.jpeg",
           "../image/categoria/cepillos/lineales/Cepillo 20c.png",
       ],
       },
@@ -630,9 +720,9 @@ const productos = [
           "Ángulos disponibles: 90° o 180°."
           ],
         imagenes: [
-          "../image/categoria/cepillos/tipo-placa/Cepillo17a.png",
-          "../image/categoria/cepillos/tipo-placa/Cepillo17b.png",
-          "../image/categoria/cepillos/tipo-placa/Cepillo17c.png",
+          "../image/categoria/cepillos/tipo-placa/cepillo 25a.png",
+          "../image/categoria/cepillos/tipo-placa/cepillo 25b.png",
+          "../image/categoria/cepillos/tipo-placa/cepillo 25c.png",
       ],
       },
 
@@ -674,32 +764,32 @@ const productos = [
           "Ángulos disponibles: 90° o 180°."
           ],
         imagenes: [
-          "../image/categoria/cepillos/circulares/Cepillo 7a.png",
-          "../image/categoria/cepillos/circulares/Cepillo 7b.png",
-          "../image/categoria/cepillos/circulares/cepillo7c.png",
+          "../image/categoria/cepillos/circulares/Cepillo17a.png",
+          "../image/categoria/cepillos/circulares/Cepillo17b.png",
+          "../image/categoria/cepillos/circulares/Cepillo17c.png",
       ],
       },
 
-      {
-        id: 34,
-        categoria: "circulares",
-        titulo: "Cepillos Circulares CCC",
-        descripcion: "Los cepillos CIRCULARES no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
-        mostrarEnHome: false,
-        imagen: "../image/categoria/cepillos/circulares/Cepillo 19a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
-        caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
-          ],
-        imagenes: [
-          "../image/categoria/cepillos/circulares/Cepillo 19a.png",
-          "../image/categoria/cepillos/circulares/Cepillo19b.png",
-          "../image/categoria/cepillos/circulares/Cepillo 19c.png",
-      ],
-      },
+      // {
+      //   id: 34,
+      //   categoria: "circulares",
+      //   titulo: "Cepillos Circulares CCC",
+      //   descripcion: "Los cepillos CIRCULARES no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
+      //   mostrarEnHome: false,
+      //   imagen: "../image/categoria/cepillos/circulares/Cepillo 19a.png" ,
+      //   detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+      //   caracteristicas: [ 
+      //     "Cuerpo de aluminio extruido.",
+      //     "Filamentos de alta densidad.",
+      //     "Montaje en caras de 8mm o 10mm.",
+      //     "Ángulos disponibles: 90° o 180°."
+      //     ],
+      //   imagenes: [
+      //     "../image/categoria/cepillos/circulares/Cepillo 19a.png",
+      //     "../image/categoria/cepillos/circulares/Cepillo19b.png",
+      //     "../image/categoria/cepillos/circulares/Cepillo 19c.png",
+      // ],
+      // },
 
       //MINI CARDS BANDA LINEAL
 
@@ -761,6 +851,27 @@ const productos = [
         imagenes: [
           "../image/categoria/cepillos/banda-lineal/Cepillo3a.png",
           "../image/categoria/cepillos/banda-lineal/Cepillo3b.png",
+      ],
+      },
+
+            {
+        id: 54,
+        categoria: "banda-lineal",
+        titulo: "Cepillos Banda Lineal CCC",
+        descripcion: "Los cepillos banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
+        mostrarEnHome: false,
+        imagen: "../image/categoria/cepillos/banda-lineal/Cepillo3a.png" ,
+        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        caracteristicas: [ 
+          "Cuerpo de aluminio extruido.",
+          "Filamentos de alta densidad.",
+          "Montaje en caras de 8mm o 10mm.",
+          "Ángulos disponibles: 90° o 180°."
+          ],
+        imagenes: [
+          "../image/categoria/cepillos/banda-lineal/cepillo20a.jpeg",
+          "../image/categoria/cepillos/banda-lineal/cepillo20b.jpeg",
+          "../image/categoria/cepillos/banda-lineal/cepillo20c.jpeg",
       ],
       },
 
