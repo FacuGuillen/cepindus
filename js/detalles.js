@@ -99,8 +99,8 @@ if (producto) {
     }
 
     // --- D. PRODUCTOS RELACIONADOS CON MINI-CARRUSELES ---
-    const relacionados = productos.filter(p => p.categoria === producto.categoria && p.id !== producto.id);
-
+// CÓDIGO NUEVO (Con el filtro extra)
+const relacionados = productos.filter(p => p.categoria === producto.categoria && p.id !== producto.id && p.mostrarEnHome === false);
     if (relacionados.length > 0) {
         const seccionRelacionados = document.getElementById('seccion-relacionados');
         const contenedorRelacionados = document.getElementById('contenedor-relacionados');

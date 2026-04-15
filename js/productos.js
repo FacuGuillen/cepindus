@@ -212,10 +212,10 @@ const productos = [
         id: 49,
         categoria: "cilindricos",
         titulo: "Cepillos Cilíndricos",
-        descripcion: "sarasa ",
+        descripcion: "Los cepillos cilíndricos son componentes esenciales en diversos sectores industriales con aplicaciones sumamente variadas. a ",
         mostrarEnHome: true,
         imagen: "../image/categoria/cepillos/cilindricos/Cepillo 7a.png" ,
-        detalle: "En Cepindus S.A., fabricamos cepillos manuales diseñados para una operación intensiva en entornos productivos exigentes. A diferencia de las opciones comerciales genéricas, nuestras herramientas están proyectadas para ofrecer un alto rendimiento ergonómico y una vida útil prolongada bajo condiciones de uso severo. Entendemos la dinámica de la industria moderna. Por ello, contamos con la flexibilidad operativa para fabricar lotes pequeños y piezas únicas sobre pedido. Los materiales de construcción varían según su aplicación y necesidad especifica, pudiendo utilizarse madera, plástico, aluminio o acero para la base y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",
+        detalle: "Los cepillos cilíndricos son componentes esenciales en diversos sectores industriales con aplicaciones sumamente variadas. En Cepindus S.A., nos especializamos en satisfacer estas demandas bajo los estándares de exigencia y calidad más altos del mercado. Nuestro valor diferencial radica en el acompañamiento integral: asesoramos a nuestros clientes desde la etapa de diseño para desarrollar soluciones técnicas que alcancen el máximo desempeño operativo en cada proceso. Contamos con la flexibilidad operativa para fabricar tanto lotes pequeños como piezas únicas sobre pedido, adaptándonos a las necesidades específicas de cada cliente. Nuestros cepillos cilíndricos se construyen con una amplia variedad de materiales, seleccionados según la aplicación y requerimientos técnicos: bases de madera, plástico, aluminio o acero, y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",
         caracteristicas: [ 
           
           ],
@@ -228,12 +228,12 @@ const productos = [
       },
 
 
-// CEPILLOS MODULARES MINI CARDS
+// CEPILLOS CILINDRICOS MINI CARDS
       {
         id: 50,
         categoria: "cilindricos",
         titulo: "Cepillos Cilíndricos",
-        descripcion: "sarasa ",
+        descripcion: "Los cepillos cilíndricos son componentes esenciales en diversos sectores industriales con aplicaciones sumamente variadas.  ",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/cilindricos/Cepillo 7a.png" ,
         detalle: "En Cepindus S.A., fabricamos cepillos manuales diseñados para una operación intensiva en entornos productivos exigentes. A diferencia de las opciones comerciales genéricas, nuestras herramientas están proyectadas para ofrecer un alto rendimiento ergonómico y una vida útil prolongada bajo condiciones de uso severo. Entendemos la dinámica de la industria moderna. Por ello, contamos con la flexibilidad operativa para fabricar lotes pequeños y piezas únicas sobre pedido. Los materiales de construcción varían según su aplicación y necesidad especifica, pudiendo utilizarse madera, plástico, aluminio o acero para la base y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",
@@ -251,11 +251,10 @@ const productos = [
         id: 51,
         categoria: "cilindricos",
         titulo: "Cepillos Cilíndricos",
-        descripcion: "sarasa ",
+        descripcion: "Los cepillos cilíndricos son componentes esenciales en diversos sectores industriales con aplicaciones sumamente variadas.  ",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/cilindricos/Cepillo 7a.png" ,
-        detalle: "En Cepindus S.A., fabricamos cepillos manuales diseñados para una operación intensiva en entornos productivos exigentes. A diferencia de las opciones comerciales genéricas, nuestras herramientas están proyectadas para ofrecer un alto rendimiento ergonómico y una vida útil prolongada bajo condiciones de uso severo. Entendemos la dinámica de la industria moderna. Por ello, contamos con la flexibilidad operativa para fabricar lotes pequeños y piezas únicas sobre pedido. Los materiales de construcción varían según su aplicación y necesidad especifica, pudiendo utilizarse madera, plástico, aluminio o acero para la base y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",
-        caracteristicas: [ 
+detalle: "En Cepindus S.A., fabricamos cepillos manuales diseñados para una operación intensiva en entornos productivos exigentes. A diferencia de las opciones comerciales genéricas, nuestras herramientas están proyectadas para ofrecer un alto rendimiento ergonómico y una vida útil prolongada bajo condiciones de uso severo. Entendemos la dinámica de la industria moderna. Por ello, contamos con la flexibilidad operativa para fabricar lotes pequeños y piezas únicas sobre pedido. Los materiales de construcción varían según su aplicación y necesidad especifica, pudiendo utilizarse madera, plástico, aluminio o acero para la base y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",        caracteristicas: [ 
           
           ],
         imagenes: [
@@ -269,7 +268,7 @@ const productos = [
         id: 52,
         categoria: "cilindricos",
         titulo: "Cepillos Cilíndricos",
-        descripcion: "sarasa ",
+        descripcion: "Los cepillos cilíndricos son componentes esenciales en diversos sectores industriales con aplicaciones sumamente variadas.  ",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/cilindricos/Cepillo 7a.png" ,
         detalle: "En Cepindus S.A., fabricamos cepillos manuales diseñados para una operación intensiva en entornos productivos exigentes. A diferencia de las opciones comerciales genéricas, nuestras herramientas están proyectadas para ofrecer un alto rendimiento ergonómico y una vida útil prolongada bajo condiciones de uso severo. Entendemos la dinámica de la industria moderna. Por ello, contamos con la flexibilidad operativa para fabricar lotes pequeños y piezas únicas sobre pedido. Los materiales de construcción varían según su aplicación y necesidad especifica, pudiendo utilizarse madera, plástico, aluminio o acero para la base y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",
@@ -287,7 +286,7 @@ const productos = [
         id: 53,
         categoria: "cilindricos",
         titulo: "Cepillos Cilíndricos",
-        descripcion: "sarasa ",
+        descripcion: "Los cepillos cilíndricos son componentes esenciales en diversos sectores industriales con aplicaciones sumamente variadas.  ",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/cilindricos/Cepillo 7a.png" ,
         detalle: "En Cepindus S.A., fabricamos cepillos manuales diseñados para una operación intensiva en entornos productivos exigentes. A diferencia de las opciones comerciales genéricas, nuestras herramientas están proyectadas para ofrecer un alto rendimiento ergonómico y una vida útil prolongada bajo condiciones de uso severo. Entendemos la dinámica de la industria moderna. Por ello, contamos con la flexibilidad operativa para fabricar lotes pequeños y piezas únicas sobre pedido. Los materiales de construcción varían según su aplicación y necesidad especifica, pudiendo utilizarse madera, plástico, aluminio o acero para la base y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",
@@ -305,14 +304,24 @@ const productos = [
       {
         id: 12,
         categoria: "modulares",
-        titulo: "Cepillos Modular AAA",
+        titulo: "Cepillos Modular",
         descripcion: "Nuestros cepillos cilíndricos modulares están fabricados sobre bases inyectadas de polipropileno espumado, garantizando ligereza y resistencia.",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/modulares/Cepillo 10a.png" ,
         detalle: "Nuestros cepillos cilíndricos modulares están fabricados sobre bases inyectadas de polipropileno espumado, garantizando ligereza y resistencia. Gracias a su sistema modular dentado, el conjunto ofrece un arrastre perfecto. El diseño permite el entrecruzamiento de los mechones en las uniones de cada módulo, lo que elimina espacios vacíos y asegura una distribución uniforme de las fibras en toda la superficie. Consulte la tabla adjunta para verificar las medidas y configuraciones disponibles para su maquinaria.",
-        caracteristicas: [ 
-          
-          ],
+      caracteristicas: [ 
+        
+        ],
+        tablaDatos: {
+          encabezados: ["Núcleo [mm]", "Eje mínimo [mm]", "Eje máximo [mm]", "Largo [mm]"],
+          filas: [
+              [50, 15, 30, 100],
+              [65, 18, 38, 50],
+              [80, 19, 55, "50/100"],
+              [110, 19, 80, 100],
+              [130, 19, 100, 50]
+          ]
+      },
         imagenes: [
           "../image/categoria/cepillos/modulares/Cepillo 10a.png",
           "../image/categoria/cepillos/modulares/Cepillo 10b.png", 
@@ -323,17 +332,24 @@ const productos = [
       {
         id: 13,
         categoria: "modulares",
-        titulo: "Cepillos Modular BBB",
+        titulo: "Cepillos Modular",
         descripcion: "Los cepillos de banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/modulares/Gemini_Generated_Image_71lncr71lncr71ln (1).png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Nuestros cepillos cilíndricos modulares están fabricados sobre bases inyectadas de polipropileno espumado, garantizando ligereza y resistencia. Gracias a su sistema modular dentado, el conjunto ofrece un arrastre perfecto. El diseño permite el entrecruzamiento de los mechones en las uniones de cada módulo, lo que elimina espacios vacíos y asegura una distribución uniforme de las fibras en toda la superficie. Consulte la tabla adjunta para verificar las medidas y configuraciones disponibles para su maquinaria.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
-          ],
+        
+        ],
+        tablaDatos: {
+          encabezados: ["Núcleo [mm]", "Eje mínimo [mm]", "Eje máximo [mm]", "Largo [mm]"],
+          filas: [
+              [50, 15, 30, 100],
+              [65, 18, 38, 50],
+              [80, 19, 55, "50/100"],
+              [110, 19, 80, 100],
+              [130, 19, 100, 50]
+          ]
+      },
         imagenes: [
           "../image/categoria/cepillos/modulares/Gemini_Generated_Image_71lncr71lncr71ln (1).png",
           "../image/categoria/cepillos/modulares/Gemini_Generated_Image_kicsglkicsglkics.png", 
@@ -343,21 +359,55 @@ const productos = [
       {
         id: 14,
         categoria: "modulares",
-        titulo: "Cepillos Modular CCC",
+        titulo: "Cepillos Modular",
         descripcion: "Los cepillos de banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/modulares/Gemini_Generated_Image_uttzukuttzukuttz.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
-        caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
-          ],
+        detalle: "Nuestros cepillos cilíndricos modulares están fabricados sobre bases inyectadas de polipropileno espumado, garantizando ligereza y resistencia. Gracias a su sistema modular dentado, el conjunto ofrece un arrastre perfecto. El diseño permite el entrecruzamiento de los mechones en las uniones de cada módulo, lo que elimina espacios vacíos y asegura una distribución uniforme de las fibras en toda la superficie. Consulte la tabla adjunta para verificar las medidas y configuraciones disponibles para su maquinaria.",
+      caracteristicas: [ 
+        
+        ],
+        tablaDatos: {
+          encabezados: ["Núcleo [mm]", "Eje mínimo [mm]", "Eje máximo [mm]", "Largo [mm]"],
+          filas: [
+              [50, 15, 30, 100],
+              [65, 18, 38, 50],
+              [80, 19, 55, "50/100"],
+              [110, 19, 80, 100],
+              [130, 19, 100, 50]
+          ]
+      },
         imagenes: [
           "../image/categoria/cepillos/modulares/Gemini_Generated_Image_uttzukuttzukuttz.png",
           "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-12 at 11.02.23 AM.jpeg", 
           "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-12 at 11.02.24 AM.jpeg",
+      ],
+      },
+      {
+        id: 47,
+        categoria: "modulares",
+        titulo: "Cepillos Modular",
+        descripcion: "Los cepillos de banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
+        mostrarEnHome: false,
+        imagen: "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-31 at 11.32.30 PM.jpeg" ,
+        detalle: "Nuestros cepillos cilíndricos modulares están fabricados sobre bases inyectadas de polipropileno espumado, garantizando ligereza y resistencia. Gracias a su sistema modular dentado, el conjunto ofrece un arrastre perfecto. El diseño permite el entrecruzamiento de los mechones en las uniones de cada módulo, lo que elimina espacios vacíos y asegura una distribución uniforme de las fibras en toda la superficie. Consulte la tabla adjunta para verificar las medidas y configuraciones disponibles para su maquinaria.",
+      caracteristicas: [ 
+        
+        ],
+        tablaDatos: {
+          encabezados: ["Núcleo [mm]", "Eje mínimo [mm]", "Eje máximo [mm]", "Largo [mm]"],
+          filas: [
+              [50, 15, 30, 100],
+              [65, 18, 38, 50],
+              [80, 19, 55, "50/100"],
+              [110, 19, 80, 100],
+              [130, 19, 100, 50]
+          ]
+      },
+        imagenes: [
+          "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-31 at 11.32.30 PM.jpeg",
+          "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-31 at 11.31.29 PM.jpeg",
+          "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-31 at 11.32.07 PM.jpeg",
       ],
       },
 
@@ -367,17 +417,12 @@ const productos = [
       {
         id: 15,
         categoria: "media-cania",
-        titulo: "Cepillos Media Caña AAA",
+        titulo: "Cepillos Media Caña",
         descripcion: "Los cepillos de banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/media-cania/Gemini_Generated_Image_1lluqg1lluqg1llu.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
-        caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
-          ],
+              detalle: "Su arquitectura partida permite una instalación sencilla ya que no es necesario montar el cepillo por alguno de sus extremos, eliminando la necesidad de extraer el eje de tracción o desarmar componentes de la transmisión. Su diseño es personalizado y se adapta según la necesidad. No trabajamos con medidas genéricas; cada cepillo se proyecta y fabrica según los requerimientos técnicos específicos de la aplicación del cliente. Adaptamos materiales de base, densidades de fibra y dimensiones exactas para garantizar un rendimiento óptimo en cualquier entorno operativo.",
+        
         imagenes: [
           "../image/categoria/cepillos/media-cania/Gemini_Generated_Image_1lluqg1lluqg1llu.png",
           "../image/categoria/cepillos/media-cania/Gemini_Generated_Image_8hee8j8hee8j8hee.png", 
@@ -388,17 +433,12 @@ const productos = [
       {
         id: 16,
         categoria: "media-cania",
-        titulo: "Cepillos Media Caña BBB",
+        titulo: "Cepillos Media Caña",
         descripcion: "Los cepillos de banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/media-cania/Gemini_Generated_Image_55722t55722t5572.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
-        caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
-          ],
+            detalle: "Su arquitectura partida permite una instalación sencilla ya que no es necesario montar el cepillo por alguno de sus extremos, eliminando la necesidad de extraer el eje de tracción o desarmar componentes de la transmisión. Su diseño es personalizado y se adapta según la necesidad. No trabajamos con medidas genéricas; cada cepillo se proyecta y fabrica según los requerimientos técnicos específicos de la aplicación del cliente. Adaptamos materiales de base, densidades de fibra y dimensiones exactas para garantizar un rendimiento óptimo en cualquier entorno operativo.",
+
         imagenes: [
           "../image/categoria/cepillos/media-cania/Gemini_Generated_Image_55722t55722t5572.png",
           "../image/categoria/cepillos/media-cania/Gemini_Generated_Image_ihrghnihrghnihrg.png", 
@@ -409,17 +449,12 @@ const productos = [
       {
         id: 17,
         categoria: "media-cania",
-        titulo: "Cepillos Media Caña CCC",
+        titulo: "Cepillos Media Caña",
         descripcion: "Los cepillos de banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/media-cania/Gemini_Generated_Image_oorx2oorx2oorx2o.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
-        caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
-          ],
+              detalle: "Su arquitectura partida permite una instalación sencilla ya que no es necesario montar el cepillo por alguno de sus extremos, eliminando la necesidad de extraer el eje de tracción o desarmar componentes de la transmisión. Su diseño es personalizado y se adapta según la necesidad. No trabajamos con medidas genéricas; cada cepillo se proyecta y fabrica según los requerimientos técnicos específicos de la aplicación del cliente. Adaptamos materiales de base, densidades de fibra y dimensiones exactas para garantizar un rendimiento óptimo en cualquier entorno operativo.",
+
         imagenes: [
           "../image/categoria/cepillos/media-cania/Gemini_Generated_Image_oorx2oorx2oorx2o.png",
           "../image/categoria/cepillos/media-cania/Gemini_Generated_Image_q6nshkq6nshkq6ns.png", 
@@ -432,17 +467,14 @@ const productos = [
       {
         id: 18,
         categoria: "construcciones-especiales",
-        titulo: "Cepillos Construcciones Especiales AAA",
+        titulo: "Cepillos Construcciones Especiales",
         descripcion: "Los cepillos de banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/construcciones-especiales/Cepillo 1a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
-        caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
-          ],
+        detalle: "En esta categoría convergen los desafíos técnicos más exigentes de la industria. Construcciones Especiales es el espacio donde desarrollamos diseños no convencionales y piezas con geometrías complejas que requieren una ejecución técnica fuera de los estándares tradicionales.No solo entregamos un producto; aportamos el conocimiento técnico necesario para transformar una necesidad compleja en una solución operativa de alto rendimiento.",
+      caracteristicas: [ 
+    
+        ],
         imagenes: [
           "../image/categoria/cepillos/construcciones-especiales/Cepillo 1a.png",
           "../image/categoria/cepillos/construcciones-especiales/Cepillo 1b.png", 
@@ -453,17 +485,14 @@ const productos = [
       {
         id: 19,
         categoria: "construcciones-especiales",
-        titulo: "Cepillos Construcciones Especiales BBB",
+        titulo: "Cepillos Construcciones Especiales",
         descripcion: "Los cepillos de banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/construcciones-especiales/Cepillo 3a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
-        caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
-          ],
+        detalle: "En esta categoría convergen los desafíos técnicos más exigentes de la industria. Construcciones Especiales es el espacio donde desarrollamos diseños no convencionales y piezas con geometrías complejas que requieren una ejecución técnica fuera de los estándares tradicionales.No solo entregamos un producto; aportamos el conocimiento técnico necesario para transformar una necesidad compleja en una solución operativa de alto rendimiento.",
+      caracteristicas: [ 
+    
+        ],
         imagenes: [
           "../image/categoria/cepillos/construcciones-especiales/Cepillo 3a.png",
           "../image/categoria/cepillos/construcciones-especiales/Cepillo 3b.png", 
@@ -474,17 +503,14 @@ const productos = [
       {
         id: 20,
         categoria: "construcciones-especiales",
-        titulo: "Cepillos Construcciones Especiales CCC",
+        titulo: "Cepillos Construcciones Especiales",
         descripcion: "Los cepillos de banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/construcciones-especiales/Cepillo 13a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
-        caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
-          ],
+        detalle: "En esta categoría convergen los desafíos técnicos más exigentes de la industria. Construcciones Especiales es el espacio donde desarrollamos diseños no convencionales y piezas con geometrías complejas que requieren una ejecución técnica fuera de los estándares tradicionales.No solo entregamos un producto; aportamos el conocimiento técnico necesario para transformar una necesidad compleja en una solución operativa de alto rendimiento.",
+      caracteristicas: [ 
+    
+        ],
         imagenes: [
           "../image/categoria/cepillos/construcciones-especiales/Cepillo 13a.png",
           "../image/categoria/cepillos/construcciones-especiales/Cepillo 13b.png", 
@@ -494,17 +520,14 @@ const productos = [
       {
         id: 21,
         categoria: "construcciones-especiales",
-        titulo: "Cepillos Construcciones Especiales DDD",
+        titulo: "Cepillos Construcciones Especiales",
         descripcion: "Los cepillos de banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/construcciones-especiales/Cepillo 14a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
-        caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
-          ],
+        detalle: "En esta categoría convergen los desafíos técnicos más exigentes de la industria. Construcciones Especiales es el espacio donde desarrollamos diseños no convencionales y piezas con geometrías complejas que requieren una ejecución técnica fuera de los estándares tradicionales.No solo entregamos un producto; aportamos el conocimiento técnico necesario para transformar una necesidad compleja en una solución operativa de alto rendimiento.",
+      caracteristicas: [ 
+    
+        ],
         imagenes: [
           "../image/categoria/cepillos/construcciones-especiales/Cepillo 14a.png",
           "../image/categoria/cepillos/construcciones-especiales/Cepillo 14b.png",
@@ -516,17 +539,14 @@ const productos = [
       {
         id: 22,
         categoria: "lineal",
-        titulo: "Cepillos Lineales AAA",
+        titulo: "Cepillos Lineales ",
         descripcion: "Los cepillos lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/lineales/Cepillo 6a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Este tipo de cepillos se utilizan como barrera contra líquidos, polvo e insectos, para limpieza en sistemas continuos y en muchas otras aplicaciones. El diseño de estos cepillos es totalmente personalizado, tanto la geometría de la pieza como los materiales de construcción.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
-          ],
+     
+        ],
         imagenes: [
           "../image/categoria/cepillos/lineales/Cepillo 6a.png",
           "../image/categoria/cepillos/lineales/Cepillo 6b.png",  
@@ -536,17 +556,14 @@ const productos = [
       {
         id: 23,
         categoria: "lineal",
-        titulo: "Cepillos Lineales BBB",
+        titulo: "Cepillos Lineales ",
         descripcion: "Los cepillos lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/lineales/Cepillo 8a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Este tipo de cepillos se utilizan como barrera contra líquidos, polvo e insectos, para limpieza en sistemas continuos y en muchas otras aplicaciones. El diseño de estos cepillos es totalmente personalizado, tanto la geometría de la pieza como los materiales de construcción.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
-          ],
+     
+        ],
         imagenes: [
           "../image/categoria/cepillos/lineales/Cepillo 8a.png",
           "../image/categoria/cepillos/lineales/Cepillo 8b.png",
@@ -557,17 +574,14 @@ const productos = [
       {
         id: 24,
         categoria: "lineal",
-        titulo: "Cepillos Lineales BBB",
+        titulo: "Cepillos Lineales ",
         descripcion: "Los cepillos lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/lineales/Cepillo 16a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Este tipo de cepillos se utilizan como barrera contra líquidos, polvo e insectos, para limpieza en sistemas continuos y en muchas otras aplicaciones. El diseño de estos cepillos es totalmente personalizado, tanto la geometría de la pieza como los materiales de construcción.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
-          ],
+     
+        ],
         imagenes: [
 
           "../image/categoria/cepillos/lineales/Cepillo 16a.png",
@@ -579,17 +593,14 @@ const productos = [
       {
         id: 25,
         categoria: "lineal",
-        titulo: "Cepillos Lineales BBB",
+        titulo: "Cepillos Lineales ",
         descripcion: "Los cepillos lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/lineales/Cepillo 20a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Este tipo de cepillos se utilizan como barrera contra líquidos, polvo e insectos, para limpieza en sistemas continuos y en muchas otras aplicaciones. El diseño de estos cepillos es totalmente personalizado, tanto la geometría de la pieza como los materiales de construcción.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
-          ],
+     
+        ],
         imagenes: [
           "../image/categoria/cepillos/lineales/Cepillo 20a.png",
           "../image/categoria/cepillos/lineales/Cepillo 20b.jpeg",
@@ -601,16 +612,14 @@ const productos = [
       {
         id: 26,
         categoria: "perfil-l",
-        titulo: "Cepillos Perfil L AAA",
+        titulo: "Cepillos Perfil L",
         descripcion: "Los cepillos PERFIL L no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/perfil-l/Cepillo 18a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Los cepillos de perfil tipo L están desarrollados sobre bases extruidas de alta resistencia, diseñadas específicamente para garantizar la estanqueidad en zonas críticas. Su función principal es actuar como una barrera mecánica contra partículas, corrientes de aire, contaminantes externos y plagas en aperturas operativas. Para adaptarnos a cada necesidad de montaje, fabricamos estos perfiles en dos configuraciones según la orientación de la fibra respecto a la superficie de instalación",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          "•	Formato Recto: La fibra sigue la línea del perfil.",
+          "•	Formato a 90°: La fibra se orienta perpendicular a la base de montaje para cierres laterales o frontales específicos.",
           ],
         imagenes: [
           "../image/categoria/cepillos/perfil-l/Cepillo 18a.png",
@@ -622,16 +631,14 @@ const productos = [
       {
         id: 27,
         categoria: "perfil-l",
-        titulo: "Cepillos Perfil L BBB",
+        titulo: "Cepillos Perfil L ",
         descripcion: "Los cepillos PERFIL L no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/perfil-l/Gemini_Generated_Image_5f79q55f79q55f79 (1).png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Los cepillos de perfil tipo L están desarrollados sobre bases extruidas de alta resistencia, diseñadas específicamente para garantizar la estanqueidad en zonas críticas. Su función principal es actuar como una barrera mecánica contra partículas, corrientes de aire, contaminantes externos y plagas en aperturas operativas. Para adaptarnos a cada necesidad de montaje, fabricamos estos perfiles en dos configuraciones según la orientación de la fibra respecto a la superficie de instalación",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          "•	Formato Recto: La fibra sigue la línea del perfil.",
+          "•	Formato a 90°: La fibra se orienta perpendicular a la base de montaje para cierres laterales o frontales específicos.",
           ],
         imagenes: [
           "../image/categoria/cepillos/perfil-l/Gemini_Generated_Image_5f79q55f79q55f79 (1).png",
@@ -643,16 +650,14 @@ const productos = [
       {
         id: 28,
         categoria: "perfil-l",
-        titulo: "Cepillos Perfil L CCC",
+        titulo: "Cepillos Perfil L",
         descripcion: "Los cepillos PERFIL L no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/perfil-l/Gemini_Generated_Image_11o3n511o3n511o3.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Los cepillos de perfil tipo L están desarrollados sobre bases extruidas de alta resistencia, diseñadas específicamente para garantizar la estanqueidad en zonas críticas. Su función principal es actuar como una barrera mecánica contra partículas, corrientes de aire, contaminantes externos y plagas en aperturas operativas. Para adaptarnos a cada necesidad de montaje, fabricamos estos perfiles en dos configuraciones según la orientación de la fibra respecto a la superficie de instalación",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          "•	Formato Recto: La fibra sigue la línea del perfil.",
+          "•	Formato a 90°: La fibra se orienta perpendicular a la base de montaje para cierres laterales o frontales específicos.",
           ],
         imagenes: [
           "../image/categoria/cepillos/perfil-l/Gemini_Generated_Image_11o3n511o3n511o3.png",
@@ -666,16 +671,15 @@ const productos = [
       {
         id: 29,
         categoria: "tipo-placa",
-        titulo: "Cepillos Tipo Placa AAA",
+        titulo: "Cepillos Tipo Placa",
         descripcion: "Los cepillos TIPO PLACA no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/tipo-placa/Cepillo15a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Diseñados para integrarse de forma modular, creando una cama de cepillado de alta densidad que garantiza una superficie de contacto uniforme y eficiente. Solución clave para procesos de fricción controlada o soporte estructural sin dañar el material.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          "•	Tratamiento de Fotopolímeros: Ideales para procesos de lavado y revelado de placas flexográficas",
+          "•	Procesamiento Alimentario: Utilizados en el cepillado, lavado y transporte de hortalizas y frutas, manteniendo la integridad del producto",
+          "•	Soporte de Punzonado y Perforado: Funcionan como una base de apoyo flexible para el troquelado o perforación de materiales delgados (chapas, plásticos o textiles) ",
           ],
         imagenes: [
           "../image/categoria/cepillos/tipo-placa/Cepillo15a.png",
@@ -687,16 +691,15 @@ const productos = [
       {
         id: 30,
         categoria: "tipo-placa",
-        titulo: "Cepillos Tipo Placa BBB",
+        titulo: "Cepillos Tipo Placa",
         descripcion: "Los cepillos TIPO PLACA no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/tipo-placa/Cepillo16a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Diseñados para integrarse de forma modular, creando una cama de cepillado de alta densidad que garantiza una superficie de contacto uniforme y eficiente. Solución clave para procesos de fricción controlada o soporte estructural sin dañar el material.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          "•	Tratamiento de Fotopolímeros: Ideales para procesos de lavado y revelado de placas flexográficas",
+          "•	Procesamiento Alimentario: Utilizados en el cepillado, lavado y transporte de hortalizas y frutas, manteniendo la integridad del producto",
+          "•	Soporte de Punzonado y Perforado: Funcionan como una base de apoyo flexible para el troquelado o perforación de materiales delgados (chapas, plásticos o textiles) ",
           ],
         imagenes: [
           "../image/categoria/cepillos/tipo-placa/Cepillo16a.png",
@@ -708,16 +711,15 @@ const productos = [
       {
         id: 31,
         categoria: "tipo-placa",
-        titulo: "Cepillos Tipo Placa CCC",
+        titulo: "Cepillos Tipo Placa",
         descripcion: "Los cepillos TIPO PLACA no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/tipo-placa/Cepillo17a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Diseñados para integrarse de forma modular, creando una cama de cepillado de alta densidad que garantiza una superficie de contacto uniforme y eficiente. Solución clave para procesos de fricción controlada o soporte estructural sin dañar el material.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          "•	Tratamiento de Fotopolímeros: Ideales para procesos de lavado y revelado de placas flexográficas",
+          "•	Procesamiento Alimentario: Utilizados en el cepillado, lavado y transporte de hortalizas y frutas, manteniendo la integridad del producto",
+          "•	Soporte de Punzonado y Perforado: Funcionan como una base de apoyo flexible para el troquelado o perforación de materiales delgados (chapas, plásticos o textiles) ",
           ],
         imagenes: [
           "../image/categoria/cepillos/tipo-placa/cepillo 25a.png",
@@ -731,16 +733,13 @@ const productos = [
       {
         id: 32,
         categoria: "circulares",
-        titulo: "Cepillos Circulares AAA",
+        titulo: "Cepillos Circulares",
         descripcion: "Los cepillos CIRCULARES no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/circulares/Cepillo 9a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Nuestros cepillos circulares están diseñados para integrarse en procesos críticos que exigen una acción rotativa precisa. En Cepindus S.A., entendemos que cada aplicación requiere una configuración única para garantizar la eficiencia del sistema. Nuestro valor diferencial es el acompañamiento técnico integral. Asesoramos a nuestros clientes desde la etapa de desarrollo inicial para definir la densidad, material y geometría ideal, asegurando el máximo rendimiento operativo de su maquinaria. Contamos con una infraestructura capaz de satisfacer todo tipo de demandas industriales, desde unidades individuales o lotes pequeños hasta grandes series de reposición, adaptándonos a los tiempos de su cadena de suministro.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+         
           ],
         imagenes: [
           "../image/categoria/cepillos/circulares/Cepillo 9a.png",
@@ -752,16 +751,13 @@ const productos = [
       {
         id: 33,
         categoria: "circulares",
-        titulo: "Cepillos Circulares BBB",
+        titulo: "Cepillos Circulares",
         descripcion: "Los cepillos CIRCULARES no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/circulares/Cepillo 7a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Nuestros cepillos circulares están diseñados para integrarse en procesos críticos que exigen una acción rotativa precisa. En Cepindus S.A., entendemos que cada aplicación requiere una configuración única para garantizar la eficiencia del sistema. Nuestro valor diferencial es el acompañamiento técnico integral. Asesoramos a nuestros clientes desde la etapa de desarrollo inicial para definir la densidad, material y geometría ideal, asegurando el máximo rendimiento operativo de su maquinaria. Contamos con una infraestructura capaz de satisfacer todo tipo de demandas industriales, desde unidades individuales o lotes pequeños hasta grandes series de reposición, adaptándonos a los tiempos de su cadena de suministro.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+         
           ],
         imagenes: [
           "../image/categoria/cepillos/circulares/Cepillo17a.png",
@@ -773,17 +769,14 @@ const productos = [
       // {
       //   id: 34,
       //   categoria: "circulares",
-      //   titulo: "Cepillos Circulares CCC",
+      //   titulo: "Cepillos Circulares ",
       //   descripcion: "Los cepillos CIRCULARES no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
       //   mostrarEnHome: false,
       //   imagen: "../image/categoria/cepillos/circulares/Cepillo 19a.png" ,
-      //   detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
-      //   caracteristicas: [ 
-      //     "Cuerpo de aluminio extruido.",
-      //     "Filamentos de alta densidad.",
-      //     "Montaje en caras de 8mm o 10mm.",
-      //     "Ángulos disponibles: 90° o 180°."
-      //     ],
+      //   detalle: "Nuestros cepillos circulares están diseñados para integrarse en procesos críticos que exigen una acción rotativa precisa. En Cepindus S.A., entendemos que cada aplicación requiere una configuración única para garantizar la eficiencia del sistema. Nuestro valor diferencial es el acompañamiento técnico integral. Asesoramos a nuestros clientes desde la etapa de desarrollo inicial para definir la densidad, material y geometría ideal, asegurando el máximo rendimiento operativo de su maquinaria. Contamos con una infraestructura capaz de satisfacer todo tipo de demandas industriales, desde unidades individuales o lotes pequeños hasta grandes series de reposición, adaptándonos a los tiempos de su cadena de suministro.",
+        //caracteristicas: [ 
+         
+        //  ],
       //   imagenes: [
       //     "../image/categoria/cepillos/circulares/Cepillo 19a.png",
       //     "../image/categoria/cepillos/circulares/Cepillo19b.png",
@@ -796,16 +789,13 @@ const productos = [
       {
         id: 35,
         categoria: "banda-lineal",
-        titulo: "Cepillos Banda Lineal AAA",
+        titulo: "Cepillos Banda Lineal",
         descripcion: "Los cepillos banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/banda-lineal/Cepillo1a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Este tipo de cepillos son de particular utilidad cuando no se cuenta con espacio suficiente para colocar un cepillo engrampado ya que es necesario un espesor mínimo de base de entre 8 y 10mm. También es utilizado cuando se requiere que el cepillo forme un cordón continuo de pelo, ya que, a diferencia de los cepillos convencionales, no posee perforaciones y el pelo posee una distribución uniforme a lo largo del cepillo. Gracias a su flexibilidad estructural, este sistema permite conformar: Cepillos Lineales: Para sellado de aberturas o guías. Cilindros de Alta Densidad (Tupidos): Mediante el bobinado continuo sobre un núcleo o eje. Cilindros Helicoidales: Diseñados para el transporte o limpieza de materiales con paso de rosca.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          
           ],
         imagenes: [
           "../image/categoria/cepillos/banda-lineal/Cepillo1a.png",
@@ -816,16 +806,13 @@ const productos = [
       {
         id: 36,
         categoria: "banda-lineal",
-        titulo: "Cepillos Banda Lineal BBB",
+        titulo: "Cepillos Banda Lineal",
         descripcion: "Los cepillos banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/banda-lineal/Cepillo2a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Este tipo de cepillos son de particular utilidad cuando no se cuenta con espacio suficiente para colocar un cepillo engrampado ya que es necesario un espesor mínimo de base de entre 8 y 10mm. También es utilizado cuando se requiere que el cepillo forme un cordón continuo de pelo, ya que, a diferencia de los cepillos convencionales, no posee perforaciones y el pelo posee una distribución uniforme a lo largo del cepillo. Gracias a su flexibilidad estructural, este sistema permite conformar: Cepillos Lineales: Para sellado de aberturas o guías. Cilindros de Alta Densidad (Tupidos): Mediante el bobinado continuo sobre un núcleo o eje. Cilindros Helicoidales: Diseñados para el transporte o limpieza de materiales con paso de rosca.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          
           ],
         imagenes: [
           "../image/categoria/cepillos/banda-lineal/Cepillo2a.png",
@@ -837,16 +824,13 @@ const productos = [
       {
         id: 37,
         categoria: "banda-lineal",
-        titulo: "Cepillos Banda Lineal CCC",
+        titulo: "Cepillos Banda Lineal",
         descripcion: "Los cepillos banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/banda-lineal/Cepillo3a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Este tipo de cepillos son de particular utilidad cuando no se cuenta con espacio suficiente para colocar un cepillo engrampado ya que es necesario un espesor mínimo de base de entre 8 y 10mm. También es utilizado cuando se requiere que el cepillo forme un cordón continuo de pelo, ya que, a diferencia de los cepillos convencionales, no posee perforaciones y el pelo posee una distribución uniforme a lo largo del cepillo. Gracias a su flexibilidad estructural, este sistema permite conformar: Cepillos Lineales: Para sellado de aberturas o guías. Cilindros de Alta Densidad (Tupidos): Mediante el bobinado continuo sobre un núcleo o eje. Cilindros Helicoidales: Diseñados para el transporte o limpieza de materiales con paso de rosca.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          
           ],
         imagenes: [
           "../image/categoria/cepillos/banda-lineal/Cepillo3a.png",
@@ -857,16 +841,13 @@ const productos = [
             {
         id: 54,
         categoria: "banda-lineal",
-        titulo: "Cepillos Banda Lineal CCC",
+        titulo: "Cepillos Banda Lineal",
         descripcion: "Los cepillos banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/banda-lineal/Cepillo3a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Este tipo de cepillos son de particular utilidad cuando no se cuenta con espacio suficiente para colocar un cepillo engrampado ya que es necesario un espesor mínimo de base de entre 8 y 10mm. También es utilizado cuando se requiere que el cepillo forme un cordón continuo de pelo, ya que, a diferencia de los cepillos convencionales, no posee perforaciones y el pelo posee una distribución uniforme a lo largo del cepillo. Gracias a su flexibilidad estructural, este sistema permite conformar: Cepillos Lineales: Para sellado de aberturas o guías. Cilindros de Alta Densidad (Tupidos): Mediante el bobinado continuo sobre un núcleo o eje. Cilindros Helicoidales: Diseñados para el transporte o limpieza de materiales con paso de rosca.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          
           ],
         imagenes: [
           "../image/categoria/cepillos/banda-lineal/cepillo20a.jpeg",
@@ -880,16 +861,13 @@ const productos = [
       {
         id: 38,
         categoria: "retorcidos",
-        titulo: "Cepillos Retorcidos AAA",
+        titulo: "Cepillos Retorcidos",
         descripcion: "Estos incluyen todos los cepillos fabricados a partir del alambre retorcido como baquetas, pinceles mecánicos, limpia...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/retorcidos/Cepillo 2a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Gracias a su diseño flexible y resistente, este sistema es la base para una amplia gama de productos de alta rotación: Hogar y Cocina: Cepillos específicos para el lavado de vasos, botellas, mamaderas y bombillas. Cuidado Personal: Diseños ergonómicos para limpieza de espalda y masaje capilar. Mantenimiento y Calzado: Herramientas eficaces para la limpieza de zapatillas y cepillos telescópicos para techos. Nuestros materiales de fabricación y métodos de producción aseguran un mejor desempeño y mayor durabilidad que nuestros competidores. Además, contamos con infraestructura capaz de satisfacer grandes volúmenes de producción en plazos de entrega reducidos. ",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+         
           ],
         imagenes: [
           "../image/categoria/cepillos/retorcidos/Cepillo 2a.png",
@@ -900,16 +878,13 @@ const productos = [
       {
         id: 39,
         categoria: "retorcidos",
-        titulo: "Cepillos Retorcidos BBB",
+        titulo: "Cepillos Retorcidos",
         descripcion: "Estos incluyen todos los cepillos fabricados a partir del alambre retorcido como baquetas, pinceles mecánicos, limpia...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/retorcidos/Cepillo 5a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Gracias a su diseño flexible y resistente, este sistema es la base para una amplia gama de productos de alta rotación: Hogar y Cocina: Cepillos específicos para el lavado de vasos, botellas, mamaderas y bombillas. Cuidado Personal: Diseños ergonómicos para limpieza de espalda y masaje capilar. Mantenimiento y Calzado: Herramientas eficaces para la limpieza de zapatillas y cepillos telescópicos para techos. Nuestros materiales de fabricación y métodos de producción aseguran un mejor desempeño y mayor durabilidad que nuestros competidores. Además, contamos con infraestructura capaz de satisfacer grandes volúmenes de producción en plazos de entrega reducidos. ",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+         
           ],
         imagenes: [
           "../image/categoria/cepillos/retorcidos/Cepillo 5a.png",
@@ -921,16 +896,13 @@ const productos = [
       {
         id: 40,
         categoria: "retorcidos",
-        titulo: "Cepillos Retorcidos CCC",
+        titulo: "Cepillos Retorcidos",
         descripcion: "Estos incluyen todos los cepillos fabricados a partir del alambre retorcido como baquetas, pinceles mecánicos, limpia...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/retorcidos/Cepillo 11e.jpg" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Gracias a su diseño flexible y resistente, este sistema es la base para una amplia gama de productos de alta rotación: Hogar y Cocina: Cepillos específicos para el lavado de vasos, botellas, mamaderas y bombillas. Cuidado Personal: Diseños ergonómicos para limpieza de espalda y masaje capilar. Mantenimiento y Calzado: Herramientas eficaces para la limpieza de zapatillas y cepillos telescópicos para techos. Nuestros materiales de fabricación y métodos de producción aseguran un mejor desempeño y mayor durabilidad que nuestros competidores. Además, contamos con infraestructura capaz de satisfacer grandes volúmenes de producción en plazos de entrega reducidos. ",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+         
           ],
         imagenes: [
           "../image/categoria/cepillos/retorcidos/Cepillo 11e.jpg",
@@ -946,16 +918,15 @@ const productos = [
       {
         id: 41,
         categoria: "hogar",
-        titulo: "Cepillos de Hogar AAA",
+        titulo: "Cepillos de Hogar ",
         descripcion: "Hogar",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/hogar/personal1.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Hemos desarrollado una línea premium de cepillos fabricados íntegramente con materiales de origen vegetal y animal procesados éticamente. Seleccionamos maderas duras, estacionadas y de alta densidad, para resistir el uso prolongado y garantizar una estructura robusta y biodegradable. Las fibras que utilizamos son específicas para cada uso:",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          "•	Cola de Caballo: Ideal para procesos que requieren una suavidad extrema y recolección de polvo fino sin generar estática.",
+          "•	Pita: Fibra de gran resistencia mecánica y térmica, excelente para fregado y limpieza profunda.",
+          "•	Palmira: Fibra rígida y duradera, perfecta para barrido pesado o aplicaciones en las que se requiere resistencia a la temperatura como limpieza de parrillas. ",
           ],
         imagenes: [
           "../image/categoria/cepillos/hogar/personal4.png",
@@ -967,16 +938,15 @@ const productos = [
       {
         id: 42,
         categoria: "hogar",
-        titulo: "Cepillos de Hogar BBB",
+        titulo: "Cepillos de Hogar ",
         descripcion: "Hogar",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/hogar/hogar.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Hemos desarrollado una línea premium de cepillos fabricados íntegramente con materiales de origen vegetal y animal procesados éticamente. Seleccionamos maderas duras, estacionadas y de alta densidad, para resistir el uso prolongado y garantizar una estructura robusta y biodegradable. Las fibras que utilizamos son específicas para cada uso:",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          "•	Cola de Caballo: Ideal para procesos que requieren una suavidad extrema y recolección de polvo fino sin generar estática.",
+          "•	Pita: Fibra de gran resistencia mecánica y térmica, excelente para fregado y limpieza profunda.",
+          "•	Palmira: Fibra rígida y duradera, perfecta para barrido pesado o aplicaciones en las que se requiere resistencia a la temperatura como limpieza de parrillas. ",
           ],
         imagenes: [
           "../image/categoria/cepillos/hogar/hogar.png",
@@ -988,16 +958,15 @@ const productos = [
       {
         id: 43,
         categoria: "hogar",
-        titulo: "Cepillos de Hogar CCC",
+        titulo: "Cepillos de Hogar ",
         descripcion: "Hogar",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/hogar/asd.jpeg" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "Hemos desarrollado una línea premium de cepillos fabricados íntegramente con materiales de origen vegetal y animal procesados éticamente. Seleccionamos maderas duras, estacionadas y de alta densidad, para resistir el uso prolongado y garantizar una estructura robusta y biodegradable. Las fibras que utilizamos son específicas para cada uso:",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          "•	Cola de Caballo: Ideal para procesos que requieren una suavidad extrema y recolección de polvo fino sin generar estática.",
+          "•	Pita: Fibra de gran resistencia mecánica y térmica, excelente para fregado y limpieza profunda.",
+          "•	Palmira: Fibra rígida y duradera, perfecta para barrido pesado o aplicaciones en las que se requiere resistencia a la temperatura como limpieza de parrillas. ",
           ],
         imagenes: [
           "../image/categoria/cepillos/hogar/asd.jpeg",
@@ -1011,16 +980,13 @@ const productos = [
       {
         id: 44,
         categoria: "con-mango",
-        titulo: "Cepillos con Mango AAA",
+        titulo: "Cepillos con Mango",
         descripcion: "Cepillos con mango...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/con-mango/Cepillo 12a.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "En Cepindus S.A., fabricamos cepillos manuales diseñados para una operación intensiva en entornos productivos exigentes. A diferencia de las opciones comerciales genéricas, nuestras herramientas están proyectadas para ofrecer un alto rendimiento ergonómico y una vida útil prolongada bajo condiciones de uso severo. Entendemos la dinámica de la industria moderna. Por ello, contamos con la flexibilidad operativa para fabricar lotes pequeños y piezas únicas sobre pedido. Los materiales de construcción varían según su aplicación y necesidad especifica, pudiendo utilizarse madera, plástico, aluminio o acero para la base y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          
           ],
         imagenes: [
           "../image/categoria/cepillos/con-mango/Cepillo 12a.png",
@@ -1032,16 +998,13 @@ const productos = [
       {
         id: 45,
         categoria: "con-mango",
-        titulo: "Cepillos con Mango BBB",
+        titulo: "Cepillos con Mango",
         descripcion: "Cepillos con mango...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/con-mango/Gemini_Generated_Image_6vmr086vmr086vmr.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "En Cepindus S.A., fabricamos cepillos manuales diseñados para una operación intensiva en entornos productivos exigentes. A diferencia de las opciones comerciales genéricas, nuestras herramientas están proyectadas para ofrecer un alto rendimiento ergonómico y una vida útil prolongada bajo condiciones de uso severo. Entendemos la dinámica de la industria moderna. Por ello, contamos con la flexibilidad operativa para fabricar lotes pequeños y piezas únicas sobre pedido. Los materiales de construcción varían según su aplicación y necesidad especifica, pudiendo utilizarse madera, plástico, aluminio o acero para la base y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          
           ],
         imagenes: [
           "../image/categoria/cepillos/con-mango/Gemini_Generated_Image_6vmr086vmr086vmr.png",
@@ -1053,16 +1016,13 @@ const productos = [
       {
         id: 46,
         categoria: "con-mango",
-        titulo: "Cepillos con Mango BBB",
+        titulo: "Cepillos con Mango",
         descripcion: "Cepillos con mango...",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/con-mango/Gemini_Generated_Image_kd0vu2kd0vu2kd0v.png" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "En Cepindus S.A., fabricamos cepillos manuales diseñados para una operación intensiva en entornos productivos exigentes. A diferencia de las opciones comerciales genéricas, nuestras herramientas están proyectadas para ofrecer un alto rendimiento ergonómico y una vida útil prolongada bajo condiciones de uso severo. Entendemos la dinámica de la industria moderna. Por ello, contamos con la flexibilidad operativa para fabricar lotes pequeños y piezas únicas sobre pedido. Los materiales de construcción varían según su aplicación y necesidad especifica, pudiendo utilizarse madera, plástico, aluminio o acero para la base y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          
           ],
         imagenes: [
           "../image/categoria/cepillos/con-mango/Gemini_Generated_Image_kd0vu2kd0vu2kd0v.png",
@@ -1070,38 +1030,16 @@ const productos = [
           "../image/categoria/cepillos/con-mango/Gemini_Generated_Image_plhjfyplhjfyplhj (1).png",
       ],
       },
-            {
-        id: 47,
-        categoria: "modulares",
-        titulo: "Cepillos Modular DDD",
-        descripcion: "Los cepillos de banda lineal no poseen un espesor considerable en el alma del cepillo, lo que lo hace muy...",
-        mostrarEnHome: false,
-        imagen: "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-31 at 11.32.30 PM.jpeg" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
-        caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
-          ],
-        imagenes: [
-          "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-31 at 11.32.30 PM.jpeg",
-          "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-31 at 11.31.29 PM.jpeg",
-          "../image/categoria/cepillos/modulares/WhatsApp Image 2026-03-31 at 11.32.07 PM.jpeg",
-      ],
-      },
+            
       {id: 48,
         categoria: "hogar",
-        titulo: "Cepillos de Hogar DDD",
+        titulo: "Cepillos de Hogar ",
         descripcion: "Hogar",
         mostrarEnHome: false,
         imagen: "../image/categoria/cepillos/hogar/asd.jpeg" ,
-        detalle: "Este tipo de cepillos se utilizan como barrera o cortina contra polvo, líquidos, insectos, etc.",
+        detalle: "En Cepindus S.A., fabricamos cepillos manuales diseñados para una operación intensiva en entornos productivos exigentes. A diferencia de las opciones comerciales genéricas, nuestras herramientas están proyectadas para ofrecer un alto rendimiento ergonómico y una vida útil prolongada bajo condiciones de uso severo. Entendemos la dinámica de la industria moderna. Por ello, contamos con la flexibilidad operativa para fabricar lotes pequeños y piezas únicas sobre pedido. Los materiales de construcción varían según su aplicación y necesidad especifica, pudiendo utilizarse madera, plástico, aluminio o acero para la base y fibras naturales (cola de caballo, pita o palmira), poliamida 6, poliamida de alta temperatura, bronce, acero al carbono o acero inoxidable para las cerdas.",
         caracteristicas: [ 
-          "Cuerpo de aluminio extruido.",
-          "Filamentos de alta densidad.",
-          "Montaje en caras de 8mm o 10mm.",
-          "Ángulos disponibles: 90° o 180°."
+          
           ],
         imagenes: [
           "../image/categoria/cepillos/hogar/personal1.png",
