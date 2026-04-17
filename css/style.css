@@ -556,21 +556,27 @@ ul, ol {
     display: none;
 }
 
-/* 1. Separación entre cards */
 .slick-slide {
-    margin: 0 10px; /* Espacio horizontal entre tarjetas */
+    margin: 0 10px; 
 }
 
-/* 2. Controlar las imágenes */
 .card-img-top {
     width: 100%;
-    height: 200px;        /* Altura fija para que todas sean iguales */
-    object-fit: contain;  /* La imagen no se recorta, se ajusta */
-    padding: 10px;        /* Un aire para que no toque los bordes */
+    height: 200px;      
+    object-fit: contain;  
+    padding: 10px;       
 }
 
-/* 3. (Opcional) Efecto "Pop" al del medio */
 .slick-center .card {
-    transform: scale(1.05); /* Agranda un poquito la card central */
+    transform: scale(1.05); 
     transition: all 0.3s ease;
+}
+
+.li-footer {
+    transition: all 0.3s ease; 
+}
+
+.li-footer:hover {
+    color: #db2d2d !important; 
+    padding-left: 8px;
 }
