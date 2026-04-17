@@ -218,7 +218,7 @@
 
 /* ---------------     INDEX     --------------- */
 .hero {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../image/cepillo.jpg');
+    background-image: radial-gradient(circle, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.2) 100%), url('../image/fondo.png');
     width: 100%;
     min-height: 70vh;
     padding: 2rem 1rem;
@@ -231,10 +231,42 @@
     color: white; 
 }
 
+.hero-content {
+    text-align: center;
+    color: #ffffff;
+    padding: 0 20px; 
+}
+
 .hero-content h1 {
     font-family: 'PT Serif', serif; 
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 3rem; 
+    margin-bottom: 15px; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+.hero-content p {
+    font-size: 1.25rem; 
+    line-height: 1.6;
+    font-weight: 500; 
+    max-width: 600px; 
+    margin: 0 auto 30px auto; 
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8); 
+}
+
+.btn-hero {
+    display: inline-block; 
+    background-color: #00b4d8; 
+    color: #ffffff;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 25px; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn-hero:hover {
+    background-color: #0096c7; 
 }
 
 .hero-content p{
